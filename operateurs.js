@@ -6,20 +6,14 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "Oditel",
-    "prefix": ""
+    "nom": "Afone",
+    "prefix": "66"
   },
   {
     "type": "mobile",
     "code": "",
     "nom": "Alphalink",
     "prefix": "67"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Afone",
-    "prefix": "66"
   },
   {
     "type": "mobile",
@@ -36,7 +30,7 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "Bouygues Telecom / B&YOU anciennement Universal Music Mobile",
+    "nom": "Bouygues Telecom / B&You [ex Universal Music Mobile]",
     "prefix": "03"
   },
   {
@@ -60,14 +54,8 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "Casino Mobile",
-    "prefix": ""
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Coriolis Télécom",
-    "prefix": "10"
+    "nom": "Colt",
+    "prefix": "94"
   },
   {
     "type": "mobile",
@@ -78,8 +66,26 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
+    "nom": "Coriolis Télécom",
+    "prefix": "10"
+  },
+  {
+    "type": "mobile",
+    "code": "",
+    "nom": "France Télécom",
+    "prefix": "90"
+  },
+  {
+    "type": "mobile",
+    "code": "",
     "nom": "Free mobile",
     "prefix": "04"
+  },
+  {
+    "type": "mobile",
+    "code": "",
+    "nom": "Ftmvno",
+    "prefix": "48"
   },
   {
     "type": "mobile",
@@ -90,8 +96,8 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "Keyyo (SFR)",
-    "prefix": "68"
+    "nom": "Joe Mobile",
+    "prefix": "11"
   },
   {
     "type": "mobile",
@@ -102,19 +108,13 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "Infinity Telecom Mobile",
-    "prefix": ""
+    "nom": "Keyyo (SFR)",
+    "prefix": "68"
   },
   {
     "type": "mobile",
     "code": "",
-    "nom": "Joe Mobile",
-    "prefix": "11"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "La Poste Mobile (anciennement Simplicime, Simpleo et Débitel)",
+    "nom": "La Poste Mobile (ex Simplicime / Simpleo / Débitel)",
     "prefix": "61"
   },
   {
@@ -138,6 +138,12 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
+    "nom": "Mblox",
+    "prefix": "92"
+  },
+  {
+    "type": "mobile",
+    "code": "",
     "nom": "Mint Mobile",
     "prefix": "84"
   },
@@ -150,8 +156,20 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
+    "nom": "Netsize",
+    "prefix": "93"
+  },
+  {
+    "type": "mobile",
+    "code": "",
     "nom": "Neuf Cegetel",
     "prefix": "63"
+  },
+  {
+    "type": "mobile",
+    "code": "",
+    "nom": "NRJ (Bouygues)",
+    "prefix": "07"
   },
   {
     "type": "mobile",
@@ -168,14 +186,14 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "NRJ (Bouygues)",
-    "prefix": "07"
+    "nom": "Numericable / Estvideo",
+    "prefix": "22"
   },
   {
     "type": "mobile",
     "code": "",
-    "nom": "Numericable / Estvideo",
-    "prefix": "22"
+    "nom": "Ocito",
+    "prefix": "95"
   },
   {
     "type": "mobile",
@@ -192,8 +210,8 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "Primus Mobile",
-    "prefix": ""
+    "nom": "OVHCloud",
+    "prefix": "F6"
   },
   {
     "type": "mobile",
@@ -210,14 +228,8 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "Réglo Mobile (ex -E. Leclerc Mobile)",
+    "nom": "Réglo Mobile (ex E. Leclerc Mobile)",
     "prefix": "66"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Saint-Hubert Mobile",
-    "prefix": ""
   },
   {
     "type": "mobile",
@@ -234,20 +246,20 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "Simyo",
+    "nom": "[ex. Simyo]",
     "prefix": "23"
+  },
+  {
+    "type": "mobile",
+    "code": "",
+    "nom": "Sybase365",
+    "prefix": "91"
   },
   {
     "type": "mobile",
     "code": "",
     "nom": "Syma mobile",
     "prefix": "55"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Télé2",
-    "prefix": "50"
   },
   {
     "type": "mobile",
@@ -270,74 +282,14 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
+    "nom": "Télé2",
+    "prefix": "50"
+  },
+  {
+    "type": "mobile",
+    "code": "",
     "nom": "U-mobile",
     "prefix": "21"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Virgin Mobile / Breizh Mobile (Omea/Omer Telecom, Orange)",
-    "prefix": "49"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Virgin Mobile / Breizh Mobile (Omea/Omer Telecom, SFR)",
-    "prefix": "06"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Zéro Forfait / Call In Europe",
-    "prefix": "68"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Ftmvno",
-    "prefix": "48"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "France Télécom",
-    "prefix": "90"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Sybase365",
-    "prefix": "91"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Mblox",
-    "prefix": "92"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Netsize",
-    "prefix": "93"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Colt",
-    "prefix": "94"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Ocito",
-    "prefix": "95"
-  },
-  {
-    "type": "mobile",
-    "code": "",
-    "nom": "Verizon",
-    "prefix": "96"
   },
   {
     "type": "mobile",
@@ -348,8 +300,26 @@ operateurs = [
   {
     "type": "mobile",
     "code": "",
-    "nom": "OVH",
-    "prefix": ""
+    "nom": "Verizon",
+    "prefix": "96"
+  },
+  {
+    "type": "mobile",
+    "code": "",
+    "nom": "[ex. Virgin Mobile / Breizh Mobile / Omea Telecom / Omer Telecom] (Orange)",
+    "prefix": "49"
+  },
+  {
+    "type": "mobile",
+    "code": "",
+    "nom": "[ex. Virgin Mobile / Breizh Mobile / Omea Telecom / Omer Telecom] (SFR)",
+    "prefix": "06"
+  },
+  {
+    "type": "mobile",
+    "code": "",
+    "nom": "Zéro Forfait / Call In Europe",
+    "prefix": "68"
   },
   {
     "type": "fixe",
