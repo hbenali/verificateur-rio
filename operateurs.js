@@ -1,6 +1,7 @@
 // Sources :
-//  https://archives.arcep.fr/uploads/tx_gsavis/15-0347.pdf
-//  https://fr.wikipedia.org/wiki/Relev%C3%A9_d%27identit%C3%A9_op%C3%A9rateur
+//  https://extranet.arcep.fr/portail/LinkClick.aspx?fileticket=mk1EHTJm7tc%3d&tabid=217&portalid=0&mid=850
+//  https://fr.wikipedia.org/w/index.php?title=Relev%C3%A9_d%27identit%C3%A9_op%C3%A9rateur&oldid=189141800
+//  Les données sont disponibles dans le dossier `documents`.
 operateurs = [
   {
     "type": "mobile",
@@ -401,13 +402,13 @@ operateurs = [
   {
     "type": "fixe",
     "code": "UPCF",
-    "nom": "NC Numericable",
+    "nom": "SFR fibre SAS",
     "prefix": "F8"
   },
   {
     "type": "fixe",
     "code": "LEGO",
-    "nom": "Legos",
+    "nom": "Société Legos-Local exchange-Global opération services",
     "prefix": "F9"
   },
   {
@@ -418,8 +419,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "ABCO",
-    "nom": "Hosteur",
+    "code": "AFEC",
+    "nom": "Afritelec",
     "prefix": "FB"
   },
   {
@@ -436,8 +437,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "AFON",
-    "nom": "Afone",
+    "code": "TEIR",
+    "nom": "Telnyx Ireland limited",
     "prefix": "FE"
   },
   {
@@ -448,14 +449,14 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "AIUS",
-    "nom": "Ivolea",
+    "code": "WARE",
+    "nom": "Waycom retail",
     "prefix": "FG"
   },
   {
     "type": "fixe",
-    "code": "ALIO",
-    "nom": "Alionis",
+    "code": "VXDS",
+    "nom": "Voxidis",
     "prefix": "FH"
   },
   {
@@ -478,13 +479,19 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "ATOW",
-    "nom": "Worldline",
+    "code": "WRDL",
+    "nom": "Worldline France",
     "prefix": "FL"
   },
   {
     "type": "fixe",
-    "code": "AURA",
+    "code": "CPOM",
+    "nom": "Capacom",
+    "prefix": "FM"
+  },
+  {
+    "type": "fixe",
+    "code": "EMOD",
     "nom": "Auranext",
     "prefix": "FN"
   },
@@ -496,8 +503,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "AVMM",
-    "nom": "AVM Multimedia",
+    "code": "AVMI",
+    "nom": "AVM Informatique",
     "prefix": "FP"
   },
   {
@@ -527,7 +534,7 @@ operateurs = [
   {
     "type": "fixe",
     "code": "BUDG",
-    "nom": "Budget télécom",
+    "nom": "MINT",
     "prefix": "FU"
   },
   {
@@ -550,20 +557,20 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "CHMU",
-    "nom": "Chmurtz",
+    "code": "GRPH",
+    "nom": "Phibee telecom",
     "prefix": "FY"
   },
   {
     "type": "fixe",
-    "code": "CLEM",
-    "nom": "Clemcom Ltd",
+    "code": "CMTT",
+    "nom": "ComMeeTT",
     "prefix": "FZ"
   },
   {
     "type": "fixe",
     "code": "CLIM",
-    "nom": "Compatel limited",
+    "nom": "Compatel Limited",
     "prefix": "G0"
   },
   {
@@ -580,6 +587,12 @@ operateurs = [
   },
   {
     "type": "fixe",
+    "code": "DVSC",
+    "nom": "DVS Connect",
+    "prefix": "G3"
+  },
+  {
+    "type": "fixe",
     "code": "DAUF",
     "nom": "Dauphin telecom",
     "prefix": "G4"
@@ -587,31 +600,31 @@ operateurs = [
   {
     "type": "fixe",
     "code": "DIAB",
-    "nom": "Diabolocom",
+    "nom": "Diabolocom SAS",
     "prefix": "G5"
   },
   {
     "type": "fixe",
-    "code": "DUHA",
-    "nom": "Duhayon Bruno",
+    "code": "R3LO",
+    "nom": "Apidaze",
     "prefix": "G6"
   },
   {
     "type": "fixe",
-    "code": "DVEN",
-    "nom": "Digital virgo entertainment",
+    "code": "DGLP",
+    "nom": "PS Mobile Access",
     "prefix": "G7"
   },
   {
     "type": "fixe",
-    "code": "EQFR",
-    "nom": "Equant France",
-    "prefix": "G9"
+    "code": "EVMI",
+    "nom": "Even media interactive",
+    "prefix": "G8"
   },
   {
     "type": "fixe",
     "code": "ETOI",
-    "nom": "Etoile dièse",
+    "nom": "Etoile Dièse",
     "prefix": "GA"
   },
   {
@@ -622,26 +635,26 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "FINE",
-    "nom": "Finarea SA",
+    "code": "DYCL",
+    "nom": "Dynamik cloud & télécom",
     "prefix": "GC"
   },
   {
     "type": "fixe",
     "code": "FING",
-    "nom": "Fingerprint technologies",
+    "nom": "Adista Fingerprint",
     "prefix": "GD"
   },
   {
     "type": "fixe",
-    "code": "FUTU",
-    "nom": "Futur telecom",
+    "code": "ANEL",
+    "nom": "Annatel telecom",
     "prefix": "GE"
   },
   {
     "type": "fixe",
-    "code": "GDEV",
-    "nom": "Géolocalisation Développement électronique et vidéo surveillance",
+    "code": "TYLI",
+    "nom": "Ty-line",
     "prefix": "GF"
   },
   {
@@ -658,8 +671,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "GUNW",
-    "nom": "Guyane Networks",
+    "code": "PARE",
+    "nom": "Parabole Réunion",
     "prefix": "GI"
   },
   {
@@ -670,8 +683,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "HADR",
-    "nom": "El Hadri Mohammed",
+    "code": "MIXW",
+    "nom": "Color telecom",
     "prefix": "GK"
   },
   {
@@ -688,8 +701,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "ICOM",
-    "nom": "Kertel Entreprises",
+    "code": "CDPI",
+    "nom": "Codepi",
     "prefix": "GN"
   },
   {
@@ -700,26 +713,26 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "IIVC",
-    "nom": "Interact-iv.com",
+    "code": "INUP",
+    "nom": "Interactiv-group",
     "prefix": "GP"
   },
   {
     "type": "fixe",
-    "code": "INBO",
-    "nom": "Licence 4",
+    "code": "OXTE",
+    "nom": "Oxone technologies",
     "prefix": "GQ"
   },
   {
     "type": "fixe",
     "code": "INCL",
-    "nom": "Intercall",
+    "nom": "Nomotech",
     "prefix": "GR"
   },
   {
     "type": "fixe",
     "code": "INIT",
-    "nom": "Acropolis Telecom",
+    "nom": "Foliateam operateur",
     "prefix": "GS"
   },
   {
@@ -731,7 +744,7 @@ operateurs = [
   {
     "type": "fixe",
     "code": "IPAR",
-    "nom": "Wibox",
+    "nom": "Azalée",
     "prefix": "GU"
   },
   {
@@ -748,26 +761,32 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "ITNF",
-    "nom": "International telecommunication network France",
+    "code": "SVCM",
+    "nom": "Unyc",
+    "prefix": "GX"
+  },
+  {
+    "type": "fixe",
+    "code": "GHVO",
+    "nom": "Ghvoip",
     "prefix": "GY"
   },
   {
     "type": "fixe",
     "code": "JAG",
-    "nom": "Jaguar network",
+    "nom": "Free Pro",
     "prefix": "GZ"
   },
   {
     "type": "fixe",
-    "code": "JAGU",
-    "nom": "Jagu David",
+    "code": "INGR",
+    "nom": "Integraphone",
     "prefix": "H0"
   },
   {
     "type": "fixe",
     "code": "KWAO",
-    "nom": "K-Net",
+    "nom": "K-net",
     "prefix": "H1"
   },
   {
@@ -779,14 +798,8 @@ operateurs = [
   {
     "type": "fixe",
     "code": "LEON",
-    "nom": "Leonix telecom",
+    "nom": "Always on",
     "prefix": "H3"
-  },
-  {
-    "type": "fixe",
-    "code": "LGPH",
-    "nom": "Long phone",
-    "prefix": "H4"
   },
   {
     "type": "fixe",
@@ -797,31 +810,31 @@ operateurs = [
   {
     "type": "fixe",
     "code": "LLEI",
-    "nom": "Lleida networks serveis telematics s.l",
+    "nom": "Lleida networks serveis telematics S.L",
     "prefix": "H6"
   },
   {
     "type": "fixe",
-    "code": "LONE",
-    "nom": "Localphone Limited",
+    "code": "YOOT",
+    "nom": "Yooth information technology",
     "prefix": "H7"
   },
   {
     "type": "fixe",
-    "code": "MARC",
-    "nom": "Magic fil telecom SAS",
+    "code": "NTLS",
+    "nom": "Netalis",
     "prefix": "H8"
   },
   {
     "type": "fixe",
-    "code": "MBIU",
-    "nom": "Mobius",
+    "code": "REPT",
+    "nom": "Réseau concept",
     "prefix": "H9"
   },
   {
     "type": "fixe",
-    "code": "MCAZ",
-    "nom": "Microcaz",
+    "code": "HEXA",
+    "nom": "Hexanet",
     "prefix": "HA"
   },
   {
@@ -832,20 +845,20 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "MEIC",
-    "nom": "Metroptic",
+    "code": "AIEX",
+    "nom": "Altitude infrastructure exploitation",
     "prefix": "HC"
   },
   {
     "type": "fixe",
     "code": "MIAS",
-    "nom": "Mediaserv",
+    "nom": "Canal+ Telecom",
     "prefix": "HD"
   },
   {
     "type": "fixe",
-    "code": "MKSD",
-    "nom": "MKS-Direct",
+    "code": "NXFR",
+    "nom": "Nxo France",
     "prefix": "HE"
   },
   {
@@ -856,20 +869,14 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "MYST",
-    "nom": "My stream",
+    "code": "CORI",
+    "nom": "Coriolis telecom SAS",
     "prefix": "HG"
   },
   {
     "type": "fixe",
-    "code": "NAVA",
-    "nom": "Navaho",
-    "prefix": "HH"
-  },
-  {
-    "type": "fixe",
-    "code": "NERI",
-    "nom": "Nerim",
+    "code": "IPEV",
+    "nom": "Ipeva",
     "prefix": "HI"
   },
   {
@@ -886,14 +893,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "NSIP",
-    "nom": "Neo center Est",
-    "prefix": "HL"
-  },
-  {
-    "type": "fixe",
-    "code": "NUVO",
-    "nom": "TextMe France",
+    "code": "GETG",
+    "nom": "Get & go telecom",
     "prefix": "HM"
   },
   {
@@ -910,20 +911,20 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "ODBE",
-    "nom": "Odbee",
+    "code": "PRSO",
+    "nom": "Prosoluce",
     "prefix": "HP"
   },
   {
     "type": "fixe",
-    "code": "OP72",
-    "nom": "Optima72",
+    "code": "VGSF",
+    "nom": "Viatel global services France",
     "prefix": "HQ"
   },
   {
     "type": "fixe",
     "code": "OPEN",
-    "nom": "DSTNY",
+    "nom": "Destiny France Partenaires",
     "prefix": "HR"
   },
   {
@@ -934,8 +935,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "OPTI",
-    "nom": "Option service",
+    "code": "YLLA",
+    "nom": "xFibre",
     "prefix": "HT"
   },
   {
@@ -946,14 +947,14 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "ORIG",
-    "nom": "Rentabiliweb telecom",
+    "code": "TIMA",
+    "nom": "Timaca",
     "prefix": "HV"
   },
   {
     "type": "fixe",
-    "code": "OTFR",
-    "nom": "O'Telecom France",
+    "code": "COCR",
+    "nom": "Comunik CRM",
     "prefix": "HW"
   },
   {
@@ -976,26 +977,32 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "PHTE",
-    "nom": "PH Telecom",
+    "code": "HERA",
+    "nom": "Netiwan",
     "prefix": "I0"
   },
   {
     "type": "fixe",
-    "code": "POLY",
-    "nom": "Polymag",
+    "code": "STER",
+    "nom": "Setera communications OY",
     "prefix": "I1"
   },
   {
     "type": "fixe",
-    "code": "PRCP",
-    "nom": "Preceptel",
+    "code": "CDXT",
+    "nom": "CDX Telecom",
     "prefix": "I2"
   },
   {
     "type": "fixe",
-    "code": "PROS",
-    "nom": "Prosodie",
+    "code": "BEET",
+    "nom": "Bee Technology",
+    "prefix": "I3"
+  },
+  {
+    "type": "fixe",
+    "code": "ODIG",
+    "nom": "Odigo",
     "prefix": "I4"
   },
   {
@@ -1025,7 +1032,7 @@ operateurs = [
   {
     "type": "fixe",
     "code": "SEWA",
-    "nom": "Sewan communications",
+    "nom": "Sewan",
     "prefix": "I9"
   },
   {
@@ -1042,8 +1049,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "STEN",
-    "nom": "Stella telecom",
+    "code": "CYDS",
+    "nom": "Cyd-solutions",
     "prefix": "IC"
   },
   {
@@ -1060,20 +1067,20 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "TECH",
-    "nom": "Tech'care",
+    "code": "TLST",
+    "nom": "Ubefone",
     "prefix": "IF"
   },
   {
     "type": "fixe",
-    "code": "TERA",
-    "nom": "SEM E-Tera",
+    "code": "AIRC",
+    "nom": "Aircall",
     "prefix": "IG"
   },
   {
     "type": "fixe",
     "code": "THEC",
-    "nom": "ThecallR",
+    "nom": "TCLR",
     "prefix": "IH"
   },
   {
@@ -1090,8 +1097,8 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "UPSA",
-    "nom": "Upsale",
+    "code": "INFS",
+    "nom": "Weaccess group",
     "prefix": "IK"
   },
   {
@@ -1115,25 +1122,25 @@ operateurs = [
   {
     "type": "fixe",
     "code": "WENG",
-    "nom": "Wengo",
+    "nom": "Mybestpro",
     "prefix": "IO"
   },
   {
     "type": "fixe",
-    "code": "WLLG",
-    "nom": "WLL Antilles-Guyane",
+    "code": "NORS",
+    "nom": "Norest services SAS",
     "prefix": "IP"
   },
   {
     "type": "fixe",
-    "code": "WLLR",
-    "nom": "WLL Réunion",
+    "code": "SYST",
+    "nom": "System-net",
     "prefix": "IQ"
   },
   {
     "type": "fixe",
-    "code": "WMNE",
-    "nom": "WM Networks",
+    "code": "RCFR",
+    "nom": "Ringcentral France",
     "prefix": "IR"
   },
   {
@@ -1144,26 +1151,26 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "AFIN",
-    "nom": "Afone infrastructure",
+    "code": "NOEL",
+    "nom": "Noelse France",
     "prefix": "IT"
   },
   {
     "type": "fixe",
     "code": "APPS",
-    "nom": "Apps2com",
+    "nom": "Foliateam-apps2com",
     "prefix": "IU"
   },
   {
     "type": "fixe",
-    "code": "COEN",
-    "nom": "Communication Océan Indien",
+    "code": "LPUP",
+    "nom": "Loopup Spain",
     "prefix": "IV"
   },
   {
     "type": "fixe",
     "code": "ERGA",
-    "nom": "Ergatel France",
+    "nom": "Everko",
     "prefix": "IW"
   },
   {
@@ -1198,8 +1205,620 @@ operateurs = [
   },
   {
     "type": "fixe",
-    "code": "UNIC",
-    "nom": "Uniconnect",
+    "code": "BFIN",
+    "nom": "B & B finance",
     "prefix": "J2"
+  },
+  {
+    "type": "fixe",
+    "code": "NETE",
+    "nom": "Netensia",
+    "prefix": "J3"
+  },
+  {
+    "type": "fixe",
+    "code": "IMSD",
+    "nom": "IMS dynamics",
+    "prefix": "J4"
+  },
+  {
+    "type": "fixe",
+    "code": "PLUG",
+    "nom": "Plug and tel",
+    "prefix": "J5"
+  },
+  {
+    "type": "fixe",
+    "code": "SPRO",
+    "nom": "Sogeprom",
+    "prefix": "J6"
+  },
+  {
+    "type": "fixe",
+    "code": "RHOV",
+    "nom": "Koesio networks",
+    "prefix": "J7"
+  },
+  {
+    "type": "fixe",
+    "code": "APWA",
+    "nom": "Appliwave",
+    "prefix": "J8"
+  },
+  {
+    "type": "fixe",
+    "code": "ADSL",
+    "nom": "Celeste",
+    "prefix": "J9"
+  },
+  {
+    "type": "fixe",
+    "code": "APPE",
+    "nom": "Appel telecom",
+    "prefix": "JA"
+  },
+  {
+    "type": "fixe",
+    "code": "DIMT",
+    "nom": "Dimension Telecom",
+    "prefix": "JB"
+  },
+  {
+    "type": "fixe",
+    "code": "OECO",
+    "nom": "Oecom",
+    "prefix": "JC"
+  },
+  {
+    "type": "fixe",
+    "code": "BICS",
+    "nom": "BICS",
+    "prefix": "JD"
+  },
+  {
+    "type": "fixe",
+    "code": "LISI",
+    "nom": "Linksip",
+    "prefix": "JE"
+  },
+  {
+    "type": "fixe",
+    "code": "SOCT",
+    "nom": "Société commerciale de télécommunication - SCT",
+    "prefix": "JF"
+  },
+  {
+    "type": "fixe",
+    "code": "CIRQ",
+    "nom": "Foliateam cloud",
+    "prefix": "JH"
+  },
+  {
+    "type": "fixe",
+    "code": "DFRA",
+    "nom": "Digifrance",
+    "prefix": "JI"
+  },
+  {
+    "type": "fixe",
+    "code": "TELN",
+    "nom": "Tel@ndcloud",
+    "prefix": "JJ"
+  },
+  {
+    "type": "fixe",
+    "code": "TOTA",
+    "nom": "Totalcloud",
+    "prefix": "JK"
+  },
+  {
+    "type": "fixe",
+    "code": "BIBR",
+    "nom": "Bits brothers",
+    "prefix": "JL"
+  },
+  {
+    "type": "fixe",
+    "code": "SYNE",
+    "nom": "Synelyans",
+    "prefix": "JM"
+  },
+  {
+    "type": "fixe",
+    "code": "W3TE",
+    "nom": "W3tel",
+    "prefix": "JN"
+  },
+  {
+    "type": "fixe",
+    "code": "TERY",
+    "nom": "Telerys communication",
+    "prefix": "JO"
+  },
+  {
+    "type": "fixe",
+    "code": "DIDW",
+    "nom": "DIDWW Ireland Limited",
+    "prefix": "JP"
+  },
+  {
+    "type": "fixe",
+    "code": "PJT3",
+    "nom": "Linkt",
+    "prefix": "JQ"
+  },
+  {
+    "type": "fixe",
+    "code": "NETW",
+    "nom": "Networth telecom",
+    "prefix": "JR"
+  },
+  {
+    "type": "fixe",
+    "code": "HTCG",
+    "nom": "Ipefix",
+    "prefix": "JS"
+  },
+  {
+    "type": "fixe",
+    "code": "VAST",
+    "nom": "Vast new telecom",
+    "prefix": "JT"
+  },
+  {
+    "type": "fixe",
+    "code": "KIOS",
+    "nom": "Le kiosqueur",
+    "prefix": "JU"
+  },
+  {
+    "type": "fixe",
+    "code": "VASO",
+    "nom": "VA Solutions",
+    "prefix": "JV"
+  },
+  {
+    "type": "fixe",
+    "code": "P1SE",
+    "nom": "P1 security",
+    "prefix": "JW"
+  },
+  {
+    "type": "fixe",
+    "code": "THDT",
+    "nom": "Thdtel",
+    "prefix": "JX"
+  },
+  {
+    "type": "fixe",
+    "code": "CPOD",
+    "nom": "Altitude infrastructure",
+    "prefix": "JY"
+  },
+  {
+    "type": "fixe",
+    "code": "NAIT",
+    "nom": "Naitways",
+    "prefix": "JZ"
+  },
+  {
+    "type": "fixe",
+    "code": "VASO",
+    "nom": "VA Solutions",
+    "prefix": "K0"
+  },
+  {
+    "type": "fixe",
+    "code": "SASY",
+    "nom": "Sab system",
+    "prefix": "K1"
+  },
+  {
+    "type": "fixe",
+    "code": "LGC",
+    "nom": "Manifone",
+    "prefix": "K2"
+  },
+  {
+    "type": "fixe",
+    "code": "SOIS",
+    "nom": "Solutions Informatiques Services",
+    "prefix": "K3"
+  },
+  {
+    "type": "fixe",
+    "code": "ABPL",
+    "nom": "AB plus",
+    "prefix": "K4"
+  },
+  {
+    "type": "fixe",
+    "code": "VELD",
+    "nom": "Veldissimo telecom",
+    "prefix": "K5"
+  },
+  {
+    "type": "fixe",
+    "code": "NEOI",
+    "nom": "Net OI",
+    "prefix": "K6"
+  },
+  {
+    "type": "fixe",
+    "code": "MAQU",
+    "nom": "Telemaque",
+    "prefix": "K7"
+  },
+  {
+    "type": "fixe",
+    "code": "UBIC",
+    "nom": "Ubicentrex",
+    "prefix": "K8"
+  },
+  {
+    "type": "fixe",
+    "code": "GNTL",
+    "nom": "Netcom Group",
+    "prefix": "K9"
+  },
+  {
+    "type": "fixe",
+    "code": "ITPH",
+    "nom": "Infinity telecom",
+    "prefix": "KA"
+  },
+  {
+    "type": "fixe",
+    "code": "WESY",
+    "nom": "Wesy",
+    "prefix": "KB"
+  },
+  {
+    "type": "fixe",
+    "code": "INOX",
+    "nom": "Infinivox",
+    "prefix": "KC"
+  },
+  {
+    "type": "fixe",
+    "code": "APSO",
+    "nom": "Stephie télécom",
+    "prefix": "KD"
+  },
+  {
+    "type": "fixe",
+    "code": "BBSI",
+    "nom": "BBS",
+    "prefix": "KE"
+  },
+  {
+    "type": "fixe",
+    "code": "INPC",
+    "nom": "Idline",
+    "prefix": "KF"
+  },
+  {
+    "type": "fixe",
+    "code": "ONCL",
+    "nom": "ONVOY Communications Limited",
+    "prefix": "KG"
+  },
+  {
+    "type": "fixe",
+    "code": "NFFR",
+    "nom": "Nfon France",
+    "prefix": "KH"
+  },
+  {
+    "type": "fixe",
+    "code": "PHGS",
+    "nom": "Phone.GS",
+    "prefix": "KI"
+  },
+  {
+    "type": "fixe",
+    "code": "AKIN",
+    "nom": "Akinea internet",
+    "prefix": "KJ"
+  },
+  {
+    "type": "fixe",
+    "code": "TRIN",
+    "nom": "Trinaps",
+    "prefix": "KK"
+  },
+  {
+    "type": "fixe",
+    "code": "GCCO",
+    "nom": "Groupe convergence.com",
+    "prefix": "KL"
+  },
+  {
+    "type": "fixe",
+    "code": "IPSE",
+    "nom": "SARL IPSET",
+    "prefix": "KM"
+  },
+  {
+    "type": "fixe",
+    "code": "TWIL",
+    "nom": "Twilio Ireland Limited",
+    "prefix": "KN"
+  },
+  {
+    "type": "fixe",
+    "code": "ARTF",
+    "nom": "Artefact",
+    "prefix": "KO"
+  },
+  {
+    "type": "fixe",
+    "code": "NIMU",
+    "nom": "Voxnode",
+    "prefix": "KP"
+  },
+  {
+    "type": "fixe",
+    "code": "EURS",
+    "nom": "Euristel",
+    "prefix": "KQ"
+  },
+  {
+    "type": "fixe",
+    "code": "NNTE",
+    "nom": "MCT",
+    "prefix": "KR"
+  },
+  {
+    "type": "fixe",
+    "code": "3620",
+    "nom": "Idelio",
+    "prefix": "KS"
+  },
+  {
+    "type": "fixe",
+    "code": "ABCL",
+    "nom": "Abaclouda",
+    "prefix": "KT"
+  },
+  {
+    "type": "fixe",
+    "code": "TESO",
+    "nom": "Telesoft",
+    "prefix": "KU"
+  },
+  {
+    "type": "fixe",
+    "code": "IZAL",
+    "nom": "Izarlink",
+    "prefix": "KV"
+  },
+  {
+    "type": "fixe",
+    "code": "OXIL",
+    "nom": "Oxilog",
+    "prefix": "KW"
+  },
+  {
+    "type": "fixe",
+    "code": "QVLT",
+    "nom": "Qovoltis",
+    "prefix": "KX"
+  },
+  {
+    "type": "fixe",
+    "code": "FRDI",
+    "nom": "Free dial",
+    "prefix": "KZ"
+  },
+  {
+    "type": "fixe",
+    "code": "TEGL",
+    "nom": "Telvox global B.V.",
+    "prefix": "L0"
+  },
+  {
+    "type": "fixe",
+    "code": "EASY",
+    "nom": "GTT Communications France",
+    "prefix": "L1"
+  },
+  {
+    "type": "fixe",
+    "code": "LGSV",
+    "nom": "LPG services",
+    "prefix": "L2"
+  },
+  {
+    "type": "fixe",
+    "code": "SFRI",
+    "nom": "iBASIS France",
+    "prefix": "L3"
+  },
+  {
+    "type": "fixe",
+    "code": "GLST",
+    "nom": "Global server telecom BV",
+    "prefix": "L4"
+  },
+  {
+    "type": "fixe",
+    "code": "ZETE",
+    "nom": "ZE telecom",
+    "prefix": "L5"
+  },
+  {
+    "type": "fixe",
+    "code": "CLEO",
+    "nom": "Celeonet",
+    "prefix": "L6"
+  },
+  {
+    "type": "fixe",
+    "code": "ONOF",
+    "nom": "Onoff telecom",
+    "prefix": "L7"
+  },
+  {
+    "type": "fixe",
+    "code": "EONE",
+    "nom": "Eone trade",
+    "prefix": "L9"
+  },
+  {
+    "type": "fixe",
+    "code": "OPTC",
+    "nom": "Optico",
+    "prefix": "LA"
+  },
+  {
+    "type": "fixe",
+    "code": "OCCI",
+    "nom": "Occicom",
+    "prefix": "LB"
+  },
+  {
+    "type": "fixe",
+    "code": "OTHD",
+    "nom": "Orne THD",
+    "prefix": "LC"
+  },
+  {
+    "type": "fixe",
+    "code": "MUON",
+    "nom": "Muona",
+    "prefix": "LD"
+  },
+  {
+    "type": "fixe",
+    "code": "KAVE",
+    "nom": "Kav El International",
+    "prefix": "LE"
+  },
+  {
+    "type": "fixe",
+    "code": "IPTB",
+    "nom": "IP telecom Bulgaria Ltd",
+    "prefix": "LF"
+  },
+  {
+    "type": "fixe",
+    "code": "WAAD",
+    "nom": "Waad universelle Europe",
+    "prefix": "LG"
+  },
+  {
+    "type": "fixe",
+    "code": "NREA",
+    "nom": "Enreach",
+    "prefix": "LH"
+  },
+  {
+    "type": "fixe",
+    "code": "ZOOM",
+    "nom": "Zoom voice communications Inc.",
+    "prefix": "LI"
+  },
+  {
+    "type": "fixe",
+    "code": "AWSS",
+    "nom": "AMCS LLC",
+    "prefix": "LJ"
+  },
+  {
+    "type": "fixe",
+    "code": "SPCV",
+    "nom": "Spacinov",
+    "prefix": "LK"
+  },
+  {
+    "type": "fixe",
+    "code": "CMTF",
+    "nom": "CM Telecom France",
+    "prefix": "LL"
+  },
+  {
+    "type": "fixe",
+    "code": "ONCN",
+    "nom": "Onecentral BV",
+    "prefix": "LM"
+  },
+  {
+    "type": "fixe",
+    "code": "ENEO",
+    "nom": "E-NEOLAB",
+    "prefix": "LN"
+  },
+  {
+    "type": "fixe",
+    "code": "HETE",
+    "nom": "Hexatel",
+    "prefix": "LO"
+  },
+  {
+    "type": "fixe",
+    "code": "MASS",
+    "nom": "Masselin communication",
+    "prefix": "LQ"
+  },
+  {
+    "type": "fixe",
+    "code": "CLTL",
+    "nom": "Cool telecom",
+    "prefix": "LR"
+  },
+  {
+    "type": "fixe",
+    "code": "YAAT",
+    "nom": "Yaatel",
+    "prefix": "LS"
+  },
+  {
+    "type": "fixe",
+    "code": "COVE",
+    "nom": "Sabio France",
+    "prefix": "LT"
+  },
+  {
+    "type": "fixe",
+    "code": "OPHO",
+    "nom": "Ophony",
+    "prefix": "LU"
+  },
+  {
+    "type": "fixe",
+    "code": "SCAN",
+    "nom": "Société coopérative d'aménagement numérique icaunaise",
+    "prefix": "LV"
+  },
+  {
+    "type": "fixe",
+    "code": "OVEA",
+    "nom": "OVEA",
+    "prefix": "LW"
+  },
+  {
+    "type": "fixe",
+    "code": "CLTE",
+    "nom": "Cloud telecom",
+    "prefix": "LX"
+  },
+  {
+    "type": "fixe",
+    "code": "DCID",
+    "nom": "Data consulting international",
+    "prefix": "LY"
+  },
+  {
+    "type": "fixe",
+    "code": "DIME",
+    "nom": "NTT France",
+    "prefix": "LZ"
+  },
+  {
+    "type": "fixe",
+    "code": "IPDI",
+    "nom": "IP Directions",
+    "prefix": "ZZ"
   }
 ]
